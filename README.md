@@ -16,3 +16,5 @@ Add the `glitch` and the desired glitch effect class to a `<div>`. In the div a 
 </div>
 ```
 Replace `glitch1` with desired glitch effect class. All available glitch classes can be previewed on [link here].
+## Contributing
+I :heart: pull requests and issues!
