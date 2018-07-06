@@ -7,7 +7,7 @@ Include the glitch libary inside the `<head>` tag.
   <link rel="stylesheet" href="css/glitch.min.css">
 </head>
 ```
-Add the `glitch` and the desired glitch effect class to a `<div>`. Add as many `<h1>` children needed by the specefic glitch effect.
+Add the `glitch` and the desired glitch effect class to a `<div>`. Add as many `<h1>` children needed by the specefic glitch effect, (or add 3 `<h1>` children, that will work for every effect.)
 ```
 <div class="glitch glitch1">
   <h1>GLITCHED TEXT</h1>
