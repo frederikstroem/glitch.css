@@ -27,16 +27,16 @@ To change colors the first `<h1>` tag needs to be selected.
 ```
 Change the color as desired after `color: `. Replace `#someGlitchDiv` with desired glitch div container.
 
-### Change Font Size (And Other Properties)
-To change font size all `<h1>` tags needs to be selected.
+### Change Font, Font Size, Text Alignment
+To change properties `<h1>` tags needs to be selected.
 ```
 #someGlitchDiv h1 {
   font-size: 70px;
+  text-align: left;
+  font-family: "Courier New";
 }
 ```
-Change the font size as desired after `font-size: `. Replace `#someGlitchDiv` with desired glitch div container.
-
-Things like `text-align` can also be changed here.
+Change or remove these values as desired. Replace `#someGlitchDiv` with desired glitch div container.
 
 ## Glitch Effects
 | Class name | Required `<h1>` children |
