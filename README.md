@@ -16,6 +16,14 @@ Add the `glitch` and the desired glitch effect class to a `<div>`. Add as many `
 </div>
 ```
 Replace `glitch1` with desired glitch effect class. All available glitch classes can be previewed on [link here].
+### Change Color
+To change colors the first `<h1>` needs to be selected.
+```
+#someGlitchDiv h1:first-child {
+  color: blue;
+}
+```
+Change the color as desired after `color: `. Replace `#someGlitchDiv` with desired glitch div container.
 ## Glitch Effects
 | Class name | Required `<h1>` children |
 | --- | --- |
