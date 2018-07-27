@@ -10,13 +10,13 @@ Include the glitch libary inside the `<head>` tag.
 ```
 Add the `glitch` and the desired glitch effect class to a `<div>`. Add as many `<h1>` children needed by the specefic glitch effect, (or add 3 `<h1>` children, that will work for every effect.)
 ```
-<div class="glitch glitch1">
+<div class="glitch hack1">
   <h1>GLITCHED TEXT</h1>
   <h1>GLITCHED TEXT</h1>
   <h1>GLITCHED TEXT</h1>
 </div>
 ```
-Replace `glitch1` with desired glitch effect class. All available glitch classes can be previewed on [link here].
+Replace `hack1` with desired glitch effect class. All available glitch classes can be previewed on [link here].
 
 ### Change Color
 To change colors the first `<h1>` tag needs to be selected.
@@ -41,7 +41,7 @@ Change or remove these values as desired. Replace `#someGlitchDiv` with desired 
 ## Glitch Effects
 | Class name | Required `<h1>` children |
 | --- | --- |
-| `glitch1` | 3 |
+| `hack1` | 3 |
 
 ## Contributing
 I :heart: pull requests and issues!
