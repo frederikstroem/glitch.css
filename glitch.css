@@ -29,6 +29,7 @@
 .hack1 h1:nth-child(2) {
   animation: hack1Child2 2s infinite;
   opacity: 0;
+  color: #35dbec;
 }
 
 .hack1 h1:nth-child(3) {
@@ -37,6 +38,29 @@
 }
 
 /* TODO: Keyframes for hack1 */
+
+@keyframes hack1Child2 {
+  0% {
+    transform: none;
+    opacity: 0;
+  }
+  1% {
+    transform: translate(-60px, 25px);
+    opacity: 0.5;
+  }
+  4% {
+    transform: translate(-60px, 25px);
+    opacity: 0.5;
+  }
+  5% {
+    transform: none;
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 0;
+  }
+}
 
 /*
  * hack1 end
