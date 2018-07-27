@@ -79,6 +79,41 @@
   }
 }
 
+@keyframes hack1Child3 {
+  0% {
+    transform: none;
+    opacity: 0;
+  }
+  70% {
+    transform: skew(3deg, 3deg) scale(0.9);
+    opacity: 0.5;
+  }
+  73% {
+    transform: none;
+    opacity: 0;
+  }
+  80% {
+    transform: skew(-2deg, -3deg) scale(1.1);
+    opacity: 0.5;
+  }
+  83% {
+    transform: none;
+    opacity: 0;
+  }
+  84% {
+    transform: skew(-2deg, -3deg) scale(1.1);
+    opacity: 0.5;
+  }
+  86% {
+    transform: none;
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 0;
+  }
+}
+
 /*
  * hack1 end
  */
